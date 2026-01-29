@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar {
+  height: 6%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar a {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.discount {
+  height: 7.5%;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount p {
+  color: white;
+  font-size: small;
+  font-weight: 300;
+}
+.discount a {
+  color: royalblue;
+}
+
+.discount a:hover {
+  transform: translateY(-5px);
+  transition: 0.5s transform ease-out;
+}
+
+.hero {
+  width: 100%;
+  height: 110%;
+  background: url(./hero__bdntboqignj6_medium_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.herOverlay {
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.herOverlay button {
+  font-size: larger;
+  font-weight: medium;
+  padding: 10px 20px;
+  background-color: #3a63df;
+  color: white;
+  border: none;
+  border-radius: 100px;
+}
+
+.herOverlay p {
+  font-weight: medium;
+  font-size: larger;
+  color: white;
+}
+
+.herOverlay button:hover {
+  background-color: #456bdc;
+  cursor: pointer;
+}
